@@ -1,6 +1,6 @@
 import pygame
 import cv2
-import mediapipe as mp
+import mediapipe as mp   #Version <- v0.0.9
 import numpy as np
 from collections import deque
 import time
@@ -1102,4 +1102,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
